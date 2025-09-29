@@ -11,3 +11,5 @@ __pycache__/
 
 # Ignore system files
 .DS_Store
+
+main.py
