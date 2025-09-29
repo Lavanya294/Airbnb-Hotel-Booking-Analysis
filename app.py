@@ -13,7 +13,7 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_csv("Airbnb_Data.csv", low_memory=False)
 
 # Clean price
-df['price'] = df['price'].replace('[\$,]', '', regex=True).astype(float)
+df['price'] = df['price'].replace(r'[\$,]', '', regex=True).astype(float)
 df = df[df['price'] < 1000]  # remove extreme outliers
 
 # Convert numeric columns

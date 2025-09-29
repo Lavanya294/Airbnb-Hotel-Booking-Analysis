@@ -5,9 +5,6 @@
 __pycache__/
 *.pyc
 
-# Ignore data files if you want to keep private (optional)
-Airbnb_Data.csv
-
 # Ignore presentation files
 *.ppt
 *.pptx
